@@ -58,7 +58,7 @@ The system follows a simple evidence collection workflow:
 - Splunk integration
 ## Installation
 ## Clone Repository
-git clone https://github.com/Prajwol_Yogi/screenshot-logger-project.git
+git clone https://github.com/prajwolyogi/screenshot-logger-project.git
 
 ## Install Dependencies
 pip install -r requirements.txt
