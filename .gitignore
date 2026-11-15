@@ -1,6 +1,5 @@
 # Local credentials and tokens
 client_secrets.json
-client_secrets*.json
 mycreds.txt
 token.json
 .env
