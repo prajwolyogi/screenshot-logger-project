@@ -8,13 +8,20 @@ from datetime import datetime
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
-#  Local screenshot folder
-save_folder = r"D:\MSc Cyber Security\final Sem\Screenshot logger\Screenshots"
+# Base directory of the project
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Screenshot folder
+save_folder = os.path.join(BASE_DIR, "Screenshots")
 os.makedirs(save_folder, exist_ok=True)
 
-#  Log file path
+# Logs folder
+logs_folder = os.path.join(BASE_DIR, "logs")
+os.makedirs(logs_folder, exist_ok=True)
+
+# Log file path
 log_filename = f"upload_log_{datetime.today().strftime('%Y-%m-%d')}.txt"
-log_path = os.path.join(r"D:\MSc Cyber Security\final Sem\Screenshot logger\logs", log_filename)
+log_path = os.path.join(logs_folder, log_filename)
 
 #  Google Drive Authentication
 gauth = GoogleAuth()
