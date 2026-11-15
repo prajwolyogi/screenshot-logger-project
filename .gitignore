@@ -1,8 +1,7 @@
 # Local credentials and tokens
 client_secrets.json
 mycreds.txt
-token.json
-.env
+
 
 # Captured data
 Screenshots/

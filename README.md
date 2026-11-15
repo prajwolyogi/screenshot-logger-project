@@ -75,6 +75,15 @@ For security reasons, OAuth credentials and access tokens are not included in th
 client_secrets.json
 5. Run the application.
 
+## Google Drive Configuration
+Copy:
+
+client_secrets.example.json
+and rename it to:
+
+client_secrets.json
+Replace the placeholder values with your own Google Cloud OAuth credentials.
+
 ## Security Notice
 Sensitive files are intentionally excluded from the repository:
 - client_secrets.json
